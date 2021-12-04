@@ -8,6 +8,6 @@ describe('Employee Class', () => {
 
         expect(employee.name).toEqual("Olivia")
         expect(employee.id).toEqual(12)
-        expect(employee.id).toEqual("ohall1223@gmail.com")
+        expect(employee.email).toEqual("ohall1223@gmail.com")
     })
 })
