@@ -1,10 +1,10 @@
 // link to page 
-const generateEmployee = require('./generateHTML')
+const generateTeam = require('./generateHTML')
 
 // team profiles
-const Manager = require('./lib/Manager')
-const Engineer = require('./lib/Engineer')
-const Intern = require('./lib/Intern')
+const Manager = require('./lib/Manager.js')
+const Engineer = require('./lib/Engineer.js')
+const Intern = require('./lib/Intern.js')
 
 const fs = require('fs');
 const inquirer = require('inquirer')
@@ -79,7 +79,7 @@ const engineerQuestions = () => {
             message: 'What is the engineer\'s GitHub username?',
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'addMember',
             message: 'What type of team member would you like to add next?',
             choices: ['Engineer', 'Intern', 'I don\'t want to add any more members'],
@@ -124,7 +124,7 @@ const internQuestions = () => {
             message: 'What is the intern\'s school?',
         },
         {
-            type: 'input',
+            type: 'list',
             name: 'addMember',
             message: 'What type of team member would you like to add next?',
             choices: ['Engineer', 'Intern', 'I don\'t want to add any more members'],

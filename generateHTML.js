@@ -1,6 +1,6 @@
-const Manager = require('../lib/Manager');
-const Engineer = require('../lib/Engineer');
-const Intern = require('../lib/Intern');
+const Manager = require('./lib/Manager.js');
+const Engineer = require('./lib/Engineer.js');
+const Intern = require('./lib/Intern.js');
 const { createReadStream } = require('fs');
 
 function generateProfile(team) {
@@ -99,7 +99,7 @@ function generateTeam(team) {
             <h1>>My Team</h1>
         </header>
         <div class='d-flex flex-row flex-wrap justify-content-center'>
-        ${generateCards(team)}
+        ${generateProfile(team)}
         </div>
         <script src="Index.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
