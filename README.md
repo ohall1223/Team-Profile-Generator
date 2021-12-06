@@ -13,15 +13,11 @@
 - This page is for buildig a team profile page.
 
 ```md
-
+![Video walkthrough of tests passing and HTML folder being built using the app ](https://watch.screencastify.com/v/fvVFwHZuwhZ0XslmKui6)
 ```
 
 ```md
-
-```
-
-```md
-
+![Screenshot of the page with a randomly generated password](./assets/screenshot1.png)
 ```
 
 ## Credits
