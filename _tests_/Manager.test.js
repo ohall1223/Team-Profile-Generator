@@ -1,5 +1,5 @@
 // use the manager consrtuctor 
-const Manager = require('../lib/Manager')
+const Manager = require('../lib/Manager.js')
 
 // create a manager constructor 
 describe('Manager Class', () => {

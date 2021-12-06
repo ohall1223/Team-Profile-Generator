@@ -52,7 +52,7 @@ const generateEngineerProfile = (Engineer) => {
         </div>
         <div class="card-body">
             <ul class="list-group">
-                <li class="list-group-item">ID: ${Engineer.getID()}</li>
+                <li class="list-group-item">ID: ${Engineer.getId()}</li>
                 <li class="list-group-item">Email: ${Engineer.getEmail()}</li>
                 <li class="list-group-item">GitHub: ${Engineer.getGithub()}</li>
             </ul>
@@ -70,9 +70,9 @@ const generateInternProfile = (Intern) => {
         </div>
         <div class="card-body">
             <ul class="list-group">
-                <li class="list-group-item">ID: ${Intern.getID()}</li>
+                <li class="list-group-item">ID: ${Intern.getId()}</li>
                 <li class="list-group-item">Email: ${Intern.getEmail()}</li>
-                <li class="list-group-item">School: ${Intern.gerSchool()}</li>
+                <li class="list-group-item">School: ${Intern.getSchool()}</li>
             </ul>
         </div>
     </div>
