@@ -14,7 +14,7 @@
 
 Video walkthrough of tests passing and HTML folder being built using the app: https://watch.screencastify.com/v/fvVFwHZuwhZ0XslmKui6
 
-![Screenshot of the page with a randomly generated password](./Assets/Screenshot1.png)
+![Screenshot of the page with a generated team profile](./Assets/Screenshot1.png)
 
 ## Credits
 
