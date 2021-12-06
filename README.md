@@ -12,9 +12,9 @@
 
 - This page is for buildig a team profile page.
 
-![Video walkthrough of tests passing and HTML folder being built using the app ](https://watch.screencastify.com/v/fvVFwHZuwhZ0XslmKui6)
+Video walkthrough of tests passing and HTML folder being built using the app: https://watch.screencastify.com/v/fvVFwHZuwhZ0XslmKui6
 
-![Screenshot of the page with a randomly generated password](./Assets/screenshot1.png)
+![Screenshot of the page with a randomly generated password](./Assets/Screenshot1.png)
 
 ## Credits
 
